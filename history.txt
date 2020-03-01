@@ -1,0 +1,56 @@
+    1  cd /workspace/SOS1920_labs; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/SOS1920_labs; clear
+    4  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    5  cd /workspace/SOS1920_labs; clear
+    6  echo "# SOS1920-labs" >> README.md
+    7  git init
+    8  ls -la
+    9  git add README.md
+   10  rm main.js
+   11  git add goorm.manifest
+   12  git commit -m "first commit"
+   13  git config --global user.email "raw_el_estudiante@hotmail.com"
+   14  git config --global user.name "rawojeda"
+   15  git commit -m "first commit"
+   16  ls
+   17  git remote add origin https://github.com/rawojeda/SOS1920-labs.git
+   18  git push -u origin master
+   19  git checkout -b l04
+   20  ls
+   21  git add .
+   22  git commit -m "update md"
+   23  git push
+   24  git push -u origin l04
+   25  node -v
+   26  npm -v
+   27  npm init
+   28  touch index.js
+   29  node index.js
+   30  npm start
+   31  npm install cool-ascii-faces
+   32  npm install cool-ascii-faces --save
+   33  npm start;
+   34  git add .
+   35  git commint -m "first working version"
+   36  git commit -m "first working version"
+   37  git push
+   38  npm start
+   39  rm -rf node_modules/
+   40  git add .
+   41  git commit -m "removed node_modules"
+   42  git push
+   43  touch .gitignor
+   44  git add .
+   45  git commit -m "root@goorm:/workspace/sos1920"
+   46  git commit -m "created gitignor"
+   47  git push
+   48  npm instal
+   49  npm install
+   50  npm install express --save
+   51  npm start
+   52  git add .
+   53  git commit -m "final version of l04"
+   54  git puah
+   55  git push
+   56  history > history.txt
